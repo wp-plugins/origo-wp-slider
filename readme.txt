@@ -1,4 +1,4 @@
-=== Origo Slider ===
+=== Origo WP Slider ===
 
 Contributors: origothemes
 Requires at least: 4.2.2
