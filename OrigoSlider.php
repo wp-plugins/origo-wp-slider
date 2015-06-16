@@ -3,7 +3,7 @@
 Plugin Name: Origo WP Slider
 Plugin URI: http://origothemes.com/wordpress-plugins/origo-slider/
 Description: A very flexible and easy to use wordpress slider, that you can insert on the pages, posts or to on theme files. It comes with three slide layout that you can choose from
-Version: 1.0.0
+Version: 1.0.0.1
 Author: Origo Themes
 Author URI: http://webdev-tuts.com
 License: GPLv2 or later
