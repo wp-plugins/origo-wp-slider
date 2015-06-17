@@ -1,0 +1,217 @@
+.handle {
+    cursor: move;
+}
+.ui-sortable-placeholder[style] {
+    border: dashed #aaa 1px;
+    visibility: visible!important;
+}
+.sliders-section {
+    width: 100%;
+    overflow: hidden;
+}
+.sliders-section .slide-form{
+    width: 58%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+}
+.sliders-section .right-pane{
+    width: 39%;
+    display: inline-block;
+    vertical-align: top;
+}
+.handle {
+    background: none repeat scroll 0 0 #62bbe8;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px;
+}
+.origo-form .ui-sortable li {
+    border: solid #caeeff 1px;
+    background: #fff;
+    padding: 5px;
+}
+/*.origo-form .ui-tabs-panel {
+    background: #f7f7f7;
+    padding: 20px;
+    border: solid #ccc 1px;
+}
+.origo-form .ui-tabs-nav {
+    margin: 30px 0 3px;
+}*/
+.origo-form .row {
+    margin: 5px 0;
+}
+.right-pane .slide-form {
+    display: none;
+}
+.slide-form .field-label{
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+}
+.slider_form .field-label {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;    
+}
+.uploader {
+    display: inline-block;
+    vertical-align: top;
+}
+.color-picker2 {
+    display: inline-block;
+    vertical-align: top;    
+}
+.slide-layout {
+    display: inline-block;
+    vertical-align: top;    
+}
+.slider .rows {
+   margin: 0;
+}
+.slider .rows li {
+    overflow: hidden;
+}
+.item-actions {
+    width: 200px;
+    float: right;
+    overflow: hidden;
+    text-align: right;
+}
+.cose-tabs {
+    position: static;
+}
+.slide-layout img {
+    height: 48px;
+    border-radius: 7px;
+}
+
+.toggle-btn-grp { 
+    margin:3px 0; 
+}
+.toggle-btn { 
+    text-align:center; 
+    margin:5px 2px;
+    padding:0.4em .5em; 
+    color:#000; 
+    background-color:#FFF; 
+    border-radius:10px; 
+    display:inline-block; 
+    border:solid 1px #CCC; 
+    cursor:pointer;
+}
+
+.toggle-btn-grp.joint-toggle .toggle-btn { 
+    margin:5px 0; 
+    padding:0.4em 2em; 
+    border-radius:0;
+    border-right-color:white;
+}
+.toggle-btn-grp.joint-toggle .toggle-btn:first-child { 
+    margin-left:2px; 
+    border-radius: 10px 0px 0px 10px; 
+}
+.toggle-btn-grp.joint-toggle .toggle-btn:last-child { 
+    margin-right:2px;  
+    border-radius: 0px 10px 10px 0px;
+    border-right:solid 1px #CCC;
+}
+
+
+.toggle-btn:hover { 
+    border:solid 1px #a0d5dc !important; 
+    background:#f1fdfe;
+}
+
+
+.toggle-btn.success { 
+    background:lightgreen;
+    border:solid 1px green !important; 
+}
+
+
+.visuallyhidden { 
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px; 
+    overflow: hidden; 
+    padding: 0; 
+    position: absolute; 
+    width: 1px; 
+}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { 
+    clip: auto; 
+    height: auto; 
+    margin: 0; 
+    overflow: visible; 
+    position: static; 
+    width: auto; 
+}
+.slide-content textarea {
+    width: 450px;
+    height: 100px;
+}
+.wp-picker-holder {
+    position: absolute;
+}
+.slider .row {
+    padding: 2px 0;
+}
+.origo_slider_top_buttons {
+    position: absolute;
+    right: 20px;
+    text-align: right;
+    top: 80px;
+}
+.content1-css label {
+    color: #aaa;
+    font-size: 11px;
+    font-weight: normal !important;
+    text-align: right;
+    vertical-align: middle !important;
+}
+.content1-css select {
+    width: 100px;
+}
+.content1-css input[type="text"] {
+    width: 50px;
+}
+#notice {
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    width: 100%;
+    display: none;
+}
+#notice span {
+    background: none repeat scroll 0 0 #ffba00;
+    border-radius: 3px;
+    color: #fff;
+    padding: 4px 10px;
+}
+/*.ui-tabs-nav li.ui-corner-top {
+    display: inline-block;
+
+}
+.ui-tabs-nav li.ui-corner-top a.ui-tabs-anchor {
+    font-weight: bold;    
+    background: #f7f7f7;    
+    text-decoration: none;
+    font-size: 15px;
+    color: #888;    
+    outline: none;
+    padding: 10px;   
+    border: solid #ccc 1px;    
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;    
+}
+.ui-tabs-nav li.ui-state-active a.ui-tabs-anchor{
+    background: #62bbe8;
+    color: #fff;
+}*/
