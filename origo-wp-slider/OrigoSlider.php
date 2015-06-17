@@ -3,7 +3,7 @@
 Plugin Name: Origo WP Slider
 Plugin URI: http://origothemes.com/wordpress-plugins/origo-slider/
 Description: A very flexible and easy to use wordpress slider, that you can insert on the pages, posts or to on theme files. It comes with three slide layout that you can choose from
-Version: 1.0.0.1
+Version: 1.0.0.3
 Author: Origo Themes
 Author URI: http://webdev-tuts.com
 License: GPLv2 or later
@@ -110,10 +110,10 @@ function origoSliderShortcode($args = array(), $content = '')
 
         $slider_html .=  '  <li class="slide slide-' . $slide->ID . ' layout-' . $slide->layout . '" style="background-color:' . 
                 $slide->bg_color . '; background-image: url(' . $slide->bg_image . ')">';
-        $slider_html .= '<div class="left"><div class="inner"><div class="inner2"><div class="inner3">' .do_shortcode(stripslashes($slide->content1)) . '</div></div></div></div>';
+        $slider_html .= '<div class="left"><div class="inner"><div class="inner2"><div class="inner3">' .do_shortcode(stripslashes(html_entity_decode($slide->content1))) . '</div></div></div></div>';
         
         if ($slide->layout == 1) {
-            $slider_html .= '<div class="right"><div class="inner"><div class="inner2"><div class="inner3">' . do_shortcode(stripslashes($slide->content2)) . '</div></div</div></div>';
+            $slider_html .= '<div class="right"><div class="inner"><div class="inner2"><div class="inner3">' . do_shortcode(stripslashes(html_entity_decode($slide->content2))) . '</div></div</div></div>';
         }
         
         $slider_html .=  '</li>';

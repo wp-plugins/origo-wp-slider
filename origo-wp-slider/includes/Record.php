@@ -40,7 +40,7 @@ class DatabaseTable {
 
         foreach ($this->_array_fields as $db_field => $values) {
             $idx = str_replace('_', '-', $db_field);
-            $final_input[$db_field] = sanitize_text_field($user_input[$idx]);
+            $final_input[$db_field] = $user_input[$idx];
         }
 
         unset($final_input['ID']);

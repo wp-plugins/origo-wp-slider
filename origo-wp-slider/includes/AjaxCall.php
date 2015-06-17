@@ -81,6 +81,13 @@ class AjaxCall
             if ($user_input['name']) {
                 //$slides[] = $user_data['slide'][$value];
                 $user_input['parent-id'] = $user_data['slider']['ID'];
+                
+                $content1 = preg_replace('#<script(.*?)>(.*?)</script>#is', '', $user_input['content1']);
+                $content2 = preg_replace('#<script(.*?)>(.*?)</script>#is', '', $user_input['content2']);
+                
+                $user_input['content1'] = htmlspecialchars($content1);
+                $user_input['content2'] = htmlspecialchars($content2);
+                
                 $user_input['sort-order'] = $idx + 1; //since idx start at 0, and I want the sort_order value to start at 1
                 //print_r($user_data['css'][$value]);
                 $user_input['options'] = serialize(array('css' => $user_data['css'][$value],

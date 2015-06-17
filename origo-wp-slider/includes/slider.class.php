@@ -26,7 +26,7 @@ class OrigoSlider {
         wp_enqueue_script('jquery-flexslider', ORIGO_SLIDER_ADMIN_URL . '/scripts/flexslider/jquery.flexslider.js');
         wp_enqueue_script('flexslider', ORIGO_SLIDER_ADMIN_URL . '/includes/js/flexslider/flexslider.js');
         wp_enqueue_style('flexslider-styes', ORIGO_SLIDER_ADMIN_URL . '/styles/flexslider/flexslider.css');
-        
+        wp_enqueue_style('origo-slider-jquery-ui', ORIGO_SLIDER_ADMIN_URL . '/includes/css/jquery-ui.css');
         wp_enqueue_script('origo-slider-ajax-call', ORIGO_SLIDER_ADMIN_URL . '/includes/js/AjaxScripts.js');        
         
         wp_enqueue_style('cose-admin-css',  ORIGO_SLIDER_ADMIN_URL . '/includes/css/admin.css');        

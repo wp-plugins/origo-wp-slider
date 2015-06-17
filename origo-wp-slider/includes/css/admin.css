@@ -33,14 +33,14 @@
     background: #fff;
     padding: 5px;
 }
-.origo-form .ui-tabs-panel {
+/*.origo-form .ui-tabs-panel {
     background: #f7f7f7;
     padding: 20px;
     border: solid #ccc 1px;
 }
 .origo-form .ui-tabs-nav {
     margin: 30px 0 3px;
-}
+}*/
 .origo-form .row {
     margin: 5px 0;
 }
@@ -195,7 +195,7 @@
     color: #fff;
     padding: 4px 10px;
 }
-.ui-tabs-nav li.ui-corner-top {
+/*.ui-tabs-nav li.ui-corner-top {
     display: inline-block;
 
 }
@@ -214,4 +214,4 @@
 .ui-tabs-nav li.ui-state-active a.ui-tabs-anchor{
     background: #62bbe8;
     color: #fff;
-}
+}*/
